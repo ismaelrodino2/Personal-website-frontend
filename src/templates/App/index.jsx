@@ -1,5 +1,14 @@
+import { createContext, useState } from 'react';
+import { Header } from '../../components/Header';
+import { SwitchButton } from '../../components/SwitchButton';
+import { ThemeProvider } from '../../providers/ThemeContext';
+
 function Home() {
-  return <h1 className="text-red-500">oi</h1>;
+  return (
+    <ThemeProvider>
+      <Header />
+    </ThemeProvider>
+  );
 }
 
 export default Home;
