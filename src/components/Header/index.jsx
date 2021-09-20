@@ -9,21 +9,21 @@ import {
   useThemeUpdate,
 } from '../../providers/ThemeContext';
 
-export function Header({ toggled }) {
+export function Header() {
   const darkTheme = useTheme();
-  const toggleTheme = useThemeUpdate();
-  console.log(toggleTheme);
   return (
     <div className={darkTheme ? 'dark' : ''}>
       <SectionBackground background={true}>
-        <div className="flex items-center justify-center h-screen text-center">
-          <div>
-            <div className="flex justify-center">
-              <FaLaptopCode size={130} />
+        <div className=" dark:bg-gray-600">
+          <div className="flex items-center justify-center h-screen text-center main-container">
+            <div>
+              <div className="flex justify-center">
+                <FaLaptopCode size={130} />
+              </div>
+              <h1 className="text-4xl">Ismael Rodino</h1>
+              <p className="text-3xl">Front-end Dev</p>
+              <SwitchButton />
             </div>
-            <h1 className="text-4xl">Ismael Rodino</h1>
-            <p className="text-3xl">Front-end Dev</p>
-            <SwitchButton />
           </div>
         </div>
       </SectionBackground>

@@ -4,12 +4,12 @@ import { ThemeContext } from '../../templates/App';
 export function SectionBackground({ children, background = false }) {
   return (
     <div
-      className={`${
-        background ? 'bg-yellow-200 dark:bg-gray-600' : 'bg-black'
-      } `}
+      className={`${background ? 'bg-yellow-200 ' : 'bg-black'} ${
+        background == null && 'bg-white'
+      }`}
       background={background}
     >
-      <div className="main-container">{children}</div>
+      <div className="">{children}</div>
     </div>
   );
 }
