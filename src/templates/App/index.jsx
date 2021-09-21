@@ -5,6 +5,8 @@ import { ProjectsSection } from '../../components/ProjectsSection';
 import { SkillsSection } from '../../components/SkillsSection';
 import { SwitchButton } from '../../components/SwitchButton';
 import { ThemeProvider } from '../../providers/ThemeContext';
+import { TimeLine } from '../../components/TimeLine';
+import { Footer } from '../../components/Footer';
 
 function Home() {
   return (
@@ -13,6 +15,8 @@ function Home() {
       <AboutSection />
       <ProjectsSection />
       <SkillsSection />
+      <TimeLine />
+      <Footer />
     </ThemeProvider>
   );
 }
