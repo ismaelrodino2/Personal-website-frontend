@@ -1,8 +1,12 @@
 import { SectionBackground } from '../SectionBackground';
 import { SiNextDotJs } from 'react-icons/si';
 import { AiFillGithub } from 'react-icons/ai';
+import P from 'prop-types';
+import { mapData } from '../../api/map-data';
+export function Footer({ footer }) {
+  const dados = require('../../api/dados.json');
+  console.log(mapData(dados));
 
-export function Footer() {
   return (
     <SectionBackground background={true}>
       <div classNameName="main-container">
@@ -10,9 +14,12 @@ export function Footer() {
           <div>
             <AiFillGithub />
           </div>
-          <p>Copyright © Ismael Rodino</p>
+          <div dangerouslySetInnerHTML={{ __html: footer }} />
         </div>
       </div>
     </SectionBackground>
   );
 }
+Footer.propTypes = {
+  footer: P.string,
+};

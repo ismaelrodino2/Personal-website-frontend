@@ -7,16 +7,12 @@ import { SwitchButton } from '../../components/SwitchButton';
 import { ThemeProvider } from '../../providers/ThemeContext';
 import { TimeLine } from '../../components/TimeLine';
 import { Footer } from '../../components/Footer';
+import { Base } from '../Base';
 
 function Home() {
   return (
     <ThemeProvider>
-      <Header />
-      <AboutSection />
-      <ProjectsSection />
-      <SkillsSection />
-      <TimeLine />
-      <Footer />
+      <Base />
     </ThemeProvider>
   );
 }
