@@ -7,7 +7,6 @@ import { Header } from '../Header';
 export function SwitchButton() {
   const toggleTheme = useThemeUpdate();
   const darkTheme = useTheme();
-  console.log(darkTheme);
   return (
     <>
       <label className="relative inline-block w-20 h-10 ">

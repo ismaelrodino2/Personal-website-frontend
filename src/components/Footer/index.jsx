@@ -5,7 +5,6 @@ import P from 'prop-types';
 import { mapData } from '../../api/map-data';
 export function Footer({ footer }) {
   const dados = require('../../api/dados.json');
-  console.log(mapData(dados));
 
   return (
     <SectionBackground background={true}>
