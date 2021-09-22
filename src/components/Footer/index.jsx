@@ -7,9 +7,9 @@ export function Footer({ footer }) {
   const dados = require('../../api/dados.json');
 
   return (
-    <SectionBackground background={true}>
-      <div classNameName="main-container">
-        <div className="flex flex-col items-center justify-center text-white bg-black">
+    <SectionBackground background={null}>
+      <div className="main-container">
+        <div className="flex flex-col items-center justify-center text-white ">
           <div>
             <AiFillGithub />
           </div>

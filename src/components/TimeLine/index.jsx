@@ -4,7 +4,7 @@ import { SiNextDotJs } from 'react-icons/si';
 export function TimeLine() {
   return (
     <SectionBackground background={true}>
-      <div classNameName="main-container">
+      <div className="main-container">
         <div className="flex justify-center">
           <h1 className="pb-10">skills</h1>
         </div>

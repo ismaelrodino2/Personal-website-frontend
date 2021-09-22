@@ -5,7 +5,7 @@ export function SectionBackground({ children, background = false }) {
   return (
     <div
       className={`${background ? 'bg-yellow-200 ' : 'bg-black'} ${
-        background == null && 'bg-white'
+        background == null && 'bg-black'
       }`}
       background={background}
     >
