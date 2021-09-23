@@ -8,9 +8,5 @@ import { TimeLine } from '../../components/TimeLine';
 import mock from './mock';
 
 export const Base = ({ footer }) => {
-  return (
-    <>
-      <Footer footer={footer} />
-    </>
-  );
+  return <></>;
 };

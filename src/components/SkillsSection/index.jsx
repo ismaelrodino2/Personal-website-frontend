@@ -1,10 +1,11 @@
+/* eslint-disable react/prop-types */
 import { SectionBackground } from '../SectionBackground';
 import { DiReact } from 'react-icons/di';
 
-export function SkillsSection() {
+export function SkillsSection({ background }) {
   return (
     <div className>
-      <SectionBackground background={false}>
+      <SectionBackground background={background}>
         <div className="flex flex-col items-center py-10 text-center main-container">
           <h1 className="pb-10 text-white">skills</h1>
           <div className="text-white">

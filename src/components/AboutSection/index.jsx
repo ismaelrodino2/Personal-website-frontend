@@ -1,14 +1,15 @@
+/* eslint-disable react/prop-types */
 import { SectionBackground } from '../SectionBackground';
 import { DiReact } from 'react-icons/di';
 import { SiNextDotJs } from 'react-icons/si';
 import { useTheme } from '../../providers/ThemeContext';
 
-export default function AboutSection() {
+export default function AboutSection({ background }) {
   const darkTheme = useTheme();
-
+  console.log(background);
   return (
     <div className={`  ${darkTheme ? 'dark' : ' '}`}>
-      <SectionBackground background={null}>
+      <SectionBackground background={background}>
         <div className="dark:bg-gray-500">
           <div className="py-10 main-container ">
             <h1 className="flex justify-center pb-14">About me</h1>

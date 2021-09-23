@@ -3,11 +3,11 @@ import { SiNextDotJs } from 'react-icons/si';
 import { AiFillGithub } from 'react-icons/ai';
 import P from 'prop-types';
 import { mapData } from '../../api/map-data';
-export function Footer({ footer }) {
+export function Footer({ footer, background }) {
   const dados = require('../../api/dados.json');
 
   return (
-    <SectionBackground background={null}>
+    <SectionBackground background={background}>
       <div className="main-container">
         <div className="flex flex-col items-center justify-center text-white ">
           <div>
@@ -21,4 +21,5 @@ export function Footer({ footer }) {
 }
 Footer.propTypes = {
   footer: P.string,
+  background: P.string,
 };

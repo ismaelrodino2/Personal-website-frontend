@@ -1,379 +1,312 @@
 [
   {
-    "_id": "61423bf53fdcc2c1f3aff07d",
-    "title": "Portfólio",
+    "_id": "614b7e8aadf715d60eb367a5",
+    "published_at": "2021-09-22T19:15:33.368Z",
     "slug": "portfolio",
-    "published_at": "2021-09-16T19:22:44.834Z",
+    "title": "Portfólio",
     "sections": [
       {
         "__component": "section.section-two-columns",
-        "_id": "61423bf53fdcc2c1f3aff07e",
+        "_id": "614b7e8aadf715d60eb367a6",
         "title": "Ismael Rodino",
-        "description": "Desenvolvedor Front-end",
+        "description": "Front-end developer",
         "metadata": {
+          "background_color": "yellow",
+          "_id": "614b7e8aadf715d60eb367aa",
+          "name": "Section one",
+          "section_id": "section-one",
           "background": true,
-          "_id": "61423bf63fdcc2c1f3aff07f",
-          "name": "Seção 1",
-          "section_id": "secao_1",
           "__v": 0,
-          "id": "61423bf63fdcc2c1f3aff07f"
+          "id": "614b7e8aadf715d60eb367aa"
         },
         "__v": 1,
-        "id": "61423bf53fdcc2c1f3aff07e"
+        "id": "614b7e8aadf715d60eb367a6"
       },
       {
         "__component": "section.section-two-columns",
-        "_id": "6142416365727bc9656e8c1e",
-        "description": "Hi :)\n\n👋 I'm Ismael Rodino. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
-        "title": "ABOUT ME",
+        "_id": "614b7e8aadf715d60eb367a7",
+        "title": "about me",
+        "description": "Sou um desenvolvedor ReactJS voltado para soluções, aprendiz ao longo da vida e aventureiro com experiência profissional em NextJs. Gosto do desenvolvimento pela satisfação que tenho em superar desafios. Estou motivado pela oportunidade que o software oferece de impactar positivamente a vida de um indivíduo e o mundo como um todo.",
         "metadata": {
-          "background": true,
-          "_id": "6142416465727bc9656e8c1f",
-          "name": "Seção 2",
-          "section_id": "secao-2",
+          "background_color": "white",
+          "_id": "614b7e8aadf715d60eb367a9",
+          "name": "Section Two",
+          "section_id": "section-two",
+          "background": false,
           "__v": 0,
-          "id": "6142416465727bc9656e8c1f"
+          "id": "614b7e8aadf715d60eb367a9"
         },
         "__v": 1,
-        "id": "6142416365727bc9656e8c1e"
+        "id": "614b7e8aadf715d60eb367a7"
       },
       {
-        "__component": "section.cection-grid",
-        "_id": "6142450efb5924cdb974b53f",
-        "title": "PROJECTS",
-        "text_grid": [
-          {
-            "_id": "6142450efb5924cdb974b541",
-            "__v": 0,
-            "svg": "<p>&lt;svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" viewBox=\"0 0 1024 1024\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"&gt;&lt;path d=\"M145.2 96l66 746.6L512 928l299.6-85.4L878.9 96H145.2zm595 177.1l-4.8 47.2-1.7 19.5H382.3l8.2 94.2h335.1l-3.3 24.3-21.2 242.2-1.7 16.2-187 51.6v.3h-1.2l-.3.1v-.1h-.1l-188.6-52L310.8 572h91.1l6.5 73.2 102.4 27.7h.4l102-27.6 11.4-118.6H510.9v-.1H306l-22.8-253.5-1.7-24.3h460.3l-1.6 24.3z\"&gt;&lt;/path&gt;&lt;/svg&gt;</p>",
-            "title": "html",
-            "id": "6142450efb5924cdb974b541"
-          },
-          {
-            "_id": "614a1232be9d6e87a17f94b7",
-            "title": "css",
-            "svg": "<p>&lt;svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" version=\"1.1\" viewBox=\"0 0 32 32\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"&gt;&lt;path d=\"M16.017 21.044v0zM4.743 3.519l2.049 22.981 9.194 2.552 9.22-2.556 2.051-22.977h-22.514zM23 8.775l-0.693 7.767h-0l-0.48 5.359-0.042 0.476-5.781 1.603-5.773-1.603-0.395-4.426h2.829l0.201 2.248 3.142 0.847 0.008-0.002 0.002-0 3.134-0.846 0.329-3.655-6.579 0-0.056-0.633-0.129-1.429-0.067-0.756 7.081-0 0.258-2.886h-10.786l-0.056-0.634-0.129-1.429-0.067-0.756h14.118l-0.068 0.756z\"&gt;&lt;/path&gt;&lt;/svg&gt;</p>",
-            "__v": 0,
-            "id": "614a1232be9d6e87a17f94b7"
-          }
-        ],
+        "__component": "section.section-grid",
+        "_id": "614ca7f2f528ee8ba0508660",
+        "title": "projects",
+        "text_grid": [],
         "image_grid": [
           {
-            "image": [
-              {
-                "_id": "614243befb5924cdb974b53e",
-                "name": "Captura de ecrã de 2021-08-22 10-40-22.png",
-                "alternativeText": "",
-                "caption": "",
-                "hash": "Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                "ext": ".png",
-                "mime": "image/png",
-                "size": 1102.11,
-                "width": 1600,
-                "height": 900,
-                "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732662/Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                "provider_metadata": {
-                  "public_id": "Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                  "resource_type": "image"
-                },
-                "formats": {
-                  "thumbnail": {
-                    "name": "thumbnail_Captura de ecrã de 2021-08-22 10-40-22.png",
-                    "hash": "thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "width": 245,
-                    "height": 138,
-                    "size": 72.19,
-                    "path": null,
-                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732664/thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                    "provider_metadata": {
-                      "public_id": "thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                      "resource_type": "image"
-                    }
-                  },
-                  "large": {
-                    "name": "large_Captura de ecrã de 2021-08-22 10-40-22.png",
-                    "hash": "large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "width": 1000,
-                    "height": 563,
-                    "size": 903.83,
-                    "path": null,
-                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732666/large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                    "provider_metadata": {
-                      "public_id": "large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "name": "medium_Captura de ecrã de 2021-08-22 10-40-22.png",
-                    "hash": "medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "width": 750,
-                    "height": 422,
-                    "size": 541.07,
-                    "path": null,
-                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732668/medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                    "provider_metadata": {
-                      "public_id": "medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "name": "small_Captura de ecrã de 2021-08-22 10-40-22.png",
-                    "hash": "small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "width": 500,
-                    "height": 281,
-                    "size": 261.29,
-                    "path": null,
-                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732669/small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                    "provider_metadata": {
-                      "public_id": "small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                      "resource_type": "image"
-                    }
+            "_id": "614ca7f2f528ee8ba0508662",
+            "date": "23123",
+            "title": "qweqweqw",
+            "__v": 0,
+            "image": {
+              "_id": "614243befb5924cdb974b53e",
+              "name": "Captura de ecrã de 2021-08-22 10-40-22.png",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1102.11,
+              "width": 1600,
+              "height": 900,
+              "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732662/Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
+              "provider_metadata": {
+                "public_id": "Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_Captura de ecrã de 2021-08-22 10-40-22.png",
+                  "hash": "thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "width": 245,
+                  "height": 138,
+                  "size": 72.19,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732664/thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                    "resource_type": "image"
                   }
                 },
-                "provider": "cloudinary",
-                "related": [],
-                "createdAt": "2021-09-15T19:04:30.320Z",
-                "updatedAt": "2021-09-15T19:12:16.905Z",
-                "__v": 0,
-                "id": "614243befb5924cdb974b53e"
-              }
-            ],
-            "_id": "6142450ffb5924cdb974b54f",
-            "title": "Portfólio",
-            "description": "Portfólio construído com react js, strapi, tailwind e mongo db como banco de dados.",
-            "__v": 0,
-            "id": "6142450ffb5924cdb974b54f"
+                "large": {
+                  "name": "large_Captura de ecrã de 2021-08-22 10-40-22.png",
+                  "hash": "large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "width": 1000,
+                  "height": 563,
+                  "size": 903.83,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732666/large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
+                  "provider_metadata": {
+                    "public_id": "large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                    "resource_type": "image"
+                  }
+                },
+                "medium": {
+                  "name": "medium_Captura de ecrã de 2021-08-22 10-40-22.png",
+                  "hash": "medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "width": 750,
+                  "height": 422,
+                  "size": 541.07,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732668/medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
+                  "provider_metadata": {
+                    "public_id": "medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "name": "small_Captura de ecrã de 2021-08-22 10-40-22.png",
+                  "hash": "small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "width": 500,
+                  "height": 281,
+                  "size": 261.29,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732669/small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
+                  "provider_metadata": {
+                    "public_id": "small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2021-09-15T19:04:30.320Z",
+              "updatedAt": "2021-09-23T19:33:11.857Z",
+              "__v": 0,
+              "id": "614243befb5924cdb974b53e"
+            },
+            "id": "614ca7f2f528ee8ba0508662"
           },
           {
-            "image": [
-              {
-                "_id": "614243befb5924cdb974b53e",
-                "name": "Captura de ecrã de 2021-08-22 10-40-22.png",
-                "alternativeText": "",
-                "caption": "",
-                "hash": "Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                "ext": ".png",
-                "mime": "image/png",
-                "size": 1102.11,
-                "width": 1600,
-                "height": 900,
-                "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732662/Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                "provider_metadata": {
-                  "public_id": "Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                  "resource_type": "image"
-                },
-                "formats": {
-                  "thumbnail": {
-                    "name": "thumbnail_Captura de ecrã de 2021-08-22 10-40-22.png",
-                    "hash": "thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "width": 245,
-                    "height": 138,
-                    "size": 72.19,
-                    "path": null,
-                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732664/thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                    "provider_metadata": {
-                      "public_id": "thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                      "resource_type": "image"
-                    }
-                  },
-                  "large": {
-                    "name": "large_Captura de ecrã de 2021-08-22 10-40-22.png",
-                    "hash": "large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "width": 1000,
-                    "height": 563,
-                    "size": 903.83,
-                    "path": null,
-                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732666/large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                    "provider_metadata": {
-                      "public_id": "large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "name": "medium_Captura de ecrã de 2021-08-22 10-40-22.png",
-                    "hash": "medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "width": 750,
-                    "height": 422,
-                    "size": 541.07,
-                    "path": null,
-                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732668/medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                    "provider_metadata": {
-                      "public_id": "medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "name": "small_Captura de ecrã de 2021-08-22 10-40-22.png",
-                    "hash": "small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "width": 500,
-                    "height": 281,
-                    "size": 261.29,
-                    "path": null,
-                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732669/small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                    "provider_metadata": {
-                      "public_id": "small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                      "resource_type": "image"
-                    }
+            "_id": "614ca7f2f528ee8ba0508663",
+            "date": "2312",
+            "title": "qweqwe",
+            "__v": 0,
+            "image": {
+              "_id": "614243befb5924cdb974b53e",
+              "name": "Captura de ecrã de 2021-08-22 10-40-22.png",
+              "alternativeText": "",
+              "caption": "",
+              "hash": "Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+              "ext": ".png",
+              "mime": "image/png",
+              "size": 1102.11,
+              "width": 1600,
+              "height": 900,
+              "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732662/Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
+              "provider_metadata": {
+                "public_id": "Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                "resource_type": "image"
+              },
+              "formats": {
+                "thumbnail": {
+                  "name": "thumbnail_Captura de ecrã de 2021-08-22 10-40-22.png",
+                  "hash": "thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "width": 245,
+                  "height": 138,
+                  "size": 72.19,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732664/thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
+                  "provider_metadata": {
+                    "public_id": "thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                    "resource_type": "image"
                   }
                 },
-                "provider": "cloudinary",
-                "related": [],
-                "createdAt": "2021-09-15T19:04:30.320Z",
-                "updatedAt": "2021-09-15T19:12:16.905Z",
-                "__v": 0,
-                "id": "614243befb5924cdb974b53e"
-              }
-            ],
-            "_id": "6142450ffb5924cdb974b550",
-            "title": "Landing-pages",
-            "description": "Landing pages genérica com temática de confeitaria construído com react, strapi, tailwind e mongo db como banco de dados.",
-            "__v": 0,
-            "id": "6142450ffb5924cdb974b550"
-          },
-          {
-            "image": [
-              {
-                "_id": "614243befb5924cdb974b53e",
-                "name": "Captura de ecrã de 2021-08-22 10-40-22.png",
-                "alternativeText": "",
-                "caption": "",
-                "hash": "Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                "ext": ".png",
-                "mime": "image/png",
-                "size": 1102.11,
-                "width": 1600,
-                "height": 900,
-                "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732662/Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                "provider_metadata": {
-                  "public_id": "Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                  "resource_type": "image"
-                },
-                "formats": {
-                  "thumbnail": {
-                    "name": "thumbnail_Captura de ecrã de 2021-08-22 10-40-22.png",
-                    "hash": "thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "width": 245,
-                    "height": 138,
-                    "size": 72.19,
-                    "path": null,
-                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732664/thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                    "provider_metadata": {
-                      "public_id": "thumbnail_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                      "resource_type": "image"
-                    }
-                  },
-                  "large": {
-                    "name": "large_Captura de ecrã de 2021-08-22 10-40-22.png",
-                    "hash": "large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "width": 1000,
-                    "height": 563,
-                    "size": 903.83,
-                    "path": null,
-                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732666/large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                    "provider_metadata": {
-                      "public_id": "large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                      "resource_type": "image"
-                    }
-                  },
-                  "medium": {
-                    "name": "medium_Captura de ecrã de 2021-08-22 10-40-22.png",
-                    "hash": "medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "width": 750,
-                    "height": 422,
-                    "size": 541.07,
-                    "path": null,
-                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732668/medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                    "provider_metadata": {
-                      "public_id": "medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                      "resource_type": "image"
-                    }
-                  },
-                  "small": {
-                    "name": "small_Captura de ecrã de 2021-08-22 10-40-22.png",
-                    "hash": "small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                    "ext": ".png",
-                    "mime": "image/png",
-                    "width": 500,
-                    "height": 281,
-                    "size": 261.29,
-                    "path": null,
-                    "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732669/small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
-                    "provider_metadata": {
-                      "public_id": "small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
-                      "resource_type": "image"
-                    }
+                "large": {
+                  "name": "large_Captura de ecrã de 2021-08-22 10-40-22.png",
+                  "hash": "large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "width": 1000,
+                  "height": 563,
+                  "size": 903.83,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732666/large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
+                  "provider_metadata": {
+                    "public_id": "large_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                    "resource_type": "image"
                   }
                 },
-                "provider": "cloudinary",
-                "related": [],
-                "createdAt": "2021-09-15T19:04:30.320Z",
-                "updatedAt": "2021-09-15T19:12:16.905Z",
-                "__v": 0,
-                "id": "614243befb5924cdb974b53e"
-              }
-            ],
-            "_id": "6142450ffb5924cdb974b551",
-            "title": "Blog Pessoal",
-            "description": "Blog pessoal construído em next js, strapi, tailwind e mongo db.",
-            "__v": 0,
-            "id": "6142450ffb5924cdb974b551"
+                "medium": {
+                  "name": "medium_Captura de ecrã de 2021-08-22 10-40-22.png",
+                  "hash": "medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "width": 750,
+                  "height": 422,
+                  "size": 541.07,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732668/medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
+                  "provider_metadata": {
+                    "public_id": "medium_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                    "resource_type": "image"
+                  }
+                },
+                "small": {
+                  "name": "small_Captura de ecrã de 2021-08-22 10-40-22.png",
+                  "hash": "small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                  "ext": ".png",
+                  "mime": "image/png",
+                  "width": 500,
+                  "height": 281,
+                  "size": 261.29,
+                  "path": null,
+                  "url": "https://res.cloudinary.com/dntfrxqpw/image/upload/v1631732669/small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b.png",
+                  "provider_metadata": {
+                    "public_id": "small_Captura_de_ecra_de_2021_08_22_10_40_22_52ef60f18b",
+                    "resource_type": "image"
+                  }
+                }
+              },
+              "provider": "cloudinary",
+              "related": [],
+              "createdAt": "2021-09-15T19:04:30.320Z",
+              "updatedAt": "2021-09-23T19:33:11.857Z",
+              "__v": 0,
+              "id": "614243befb5924cdb974b53e"
+            },
+            "id": "614ca7f2f528ee8ba0508663"
           }
         ],
+        "metadata": {
+          "background_color": "yellow",
+          "_id": "614ca7f3f528ee8ba050866f",
+          "name": "Section three",
+          "section_id": "section-three",
+          "background": true,
+          "__v": 0,
+          "id": "614ca7f3f528ee8ba050866f"
+        },
         "__v": 2,
-        "titleimg": "projects",
-        "titletext": "skills",
-        "id": "6142450efb5924cdb974b53f"
+        "id": "614ca7f2f528ee8ba0508660"
+      },
+      {
+        "__component": "section.section-grid",
+        "_id": "614ca7f2f528ee8ba0508661",
+        "title": "skills",
+        "text_grid": [
+          {
+            "_id": "614ca7f2f528ee8ba0508664",
+            "title": "react",
+            "description": "<p>&lt;svg stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" version=\"1.1\" viewBox=\"0 0 34 32\" height=\"1em\" width=\"1em\" xmlns=\"http://www.w3.org/2000/svg\"&gt;&lt;path d=\"M19.314 15.987c0 1.321-1.071 2.392-2.392 2.392s-2.392-1.071-2.392-2.392c0-1.321 1.071-2.392 2.392-2.392s2.392 1.071 2.392 2.392z\"&gt;&lt;/path&gt;&lt;path d=\"M16.922 24.783c1.878 1.826 3.729 2.906 5.221 2.906 0.489 0 0.952-0.103 1.337-0.334 1.337-0.772 1.826-2.701 1.363-5.453-0.077-0.489-0.18-0.977-0.309-1.492 0.514-0.154 0.977-0.309 1.44-0.463 2.598-1.003 4.038-2.392 4.038-3.909 0-1.543-1.44-2.932-4.038-3.909-0.463-0.18-0.926-0.334-1.44-0.463 0.129-0.514 0.232-1.003 0.309-1.492 0.437-2.803-0.051-4.758-1.389-5.53-0.386-0.231-0.849-0.334-1.337-0.334-1.466 0-3.344 1.080-5.221 2.906-1.852-1.826-3.704-2.906-5.195-2.906-0.489 0-0.952 0.103-1.337 0.334-1.337 0.772-1.826 2.701-1.363 5.453 0.077 0.489 0.18 0.977 0.309 1.492-0.514 0.154-0.977 0.309-1.44 0.463-2.598 1.003-4.038 2.392-4.038 3.909 0 1.543 1.44 2.932 4.038 3.909 0.463 0.18 0.926 0.334 1.44 0.463-0.129 0.514-0.232 1.003-0.309 1.492-0.437 2.752 0.051 4.707 1.363 5.453 0.386 0.232 0.849 0.334 1.337 0.334 1.492 0.051 3.344-1.029 5.221-2.829v0zM15.481 21.311c0.463 0.026 0.952 0.026 1.44 0.026s0.977 0 1.44-0.026c-0.463 0.617-0.952 1.183-1.44 1.723-0.489-0.54-0.977-1.106-1.44-1.723zM12.292 18.662c0.257 0.437 0.489 0.849 0.772 1.26-0.797-0.103-1.543-0.232-2.263-0.386 0.232-0.694 0.489-1.415 0.797-2.135 0.206 0.411 0.437 0.849 0.694 1.26zM10.8 12.463c0.72-0.154 1.466-0.283 2.263-0.386-0.257 0.412-0.514 0.823-0.772 1.26s-0.489 0.849-0.694 1.286c-0.334-0.746-0.592-1.466-0.797-2.161zM12.215 15.987c0.334-0.694 0.694-1.389 1.106-2.083 0.386-0.669 0.823-1.337 1.26-2.006 0.772-0.051 1.543-0.077 2.341-0.077 0.823 0 1.595 0.026 2.341 0.077 0.463 0.669 0.874 1.337 1.26 2.006 0.412 0.694 0.772 1.389 1.106 2.083-0.334 0.694-0.694 1.389-1.106 2.083-0.386 0.669-0.823 1.337-1.26 2.006-0.772 0.051-1.543 0.077-2.341 0.077-0.823 0-1.595-0.026-2.341-0.077-0.463-0.669-0.874-1.337-1.26-2.006-0.412-0.695-0.772-1.389-1.106-2.083v0zM22.272 14.598l-0.694-1.286c-0.257-0.437-0.489-0.849-0.772-1.26 0.797 0.103 1.543 0.232 2.263 0.386-0.231 0.72-0.489 1.44-0.797 2.161v0zM22.272 17.376c0.309 0.72 0.566 1.44 0.797 2.135-0.72 0.154-1.466 0.283-2.263 0.386 0.257-0.412 0.514-0.823 0.772-1.26 0.232-0.386 0.463-0.823 0.694-1.26v0zM22.863 26.301c-0.206 0.129-0.463 0.18-0.746 0.18-1.26 0-2.829-1.029-4.372-2.572 0.746-0.797 1.466-1.698 2.186-2.701 1.209-0.103 2.366-0.283 3.447-0.54 0.129 0.463 0.206 0.926 0.283 1.389 0.36 2.186 0.077 3.755-0.797 4.244zM24.201 12.746c2.881 0.823 4.604 2.083 4.604 3.241 0 1.003-1.183 2.006-3.266 2.804-0.412 0.154-0.874 0.309-1.337 0.437-0.334-1.055-0.746-2.135-1.26-3.241 0.514-1.106 0.952-2.186 1.26-3.241v0zM22.143 5.493c0.283 0 0.514 0.051 0.746 0.18 0.849 0.489 1.157 2.032 0.797 4.244-0.077 0.437-0.18 0.9-0.283 1.389-1.080-0.232-2.238-0.412-3.447-0.54-0.694-1.003-1.44-1.903-2.186-2.701 1.543-1.518 3.112-2.572 4.372-2.572zM18.362 10.663c-0.463-0.026-0.952-0.026-1.44-0.026s-0.977 0-1.44 0.026c0.463-0.617 0.952-1.183 1.44-1.723 0.489 0.54 0.977 1.132 1.44 1.723v0zM10.98 5.673c0.206-0.129 0.463-0.18 0.746-0.18 1.26 0 2.829 1.029 4.372 2.572-0.746 0.797-1.466 1.697-2.186 2.701-1.209 0.103-2.366 0.283-3.447 0.54-0.129-0.463-0.206-0.926-0.283-1.389-0.36-2.186-0.077-3.729 0.797-4.244v0zM9.643 19.228c-2.881-0.823-4.604-2.083-4.604-3.241 0-1.003 1.183-2.006 3.266-2.803 0.412-0.154 0.874-0.309 1.337-0.437 0.334 1.055 0.746 2.135 1.26 3.241-0.514 1.106-0.952 2.212-1.26 3.241zM10.183 22.057c0.077-0.437 0.18-0.9 0.283-1.389 1.080 0.232 2.238 0.412 3.447 0.54 0.694 1.003 1.44 1.903 2.186 2.701-1.543 1.517-3.112 2.572-4.372 2.572-0.283 0-0.514-0.051-0.746-0.18-0.875-0.489-1.157-2.058-0.797-4.244z\"&gt;&lt;/path&gt;&lt;/svg&gt;</p>",
+            "__v": 0,
+            "id": "614ca7f2f528ee8ba0508664"
+          }
+        ],
+        "image_grid": [],
+        "metadata": {
+          "background_color": "black",
+          "_id": "614ca7f3f528ee8ba0508668",
+          "name": "Section four",
+          "section_id": "section-four",
+          "__v": 0,
+          "id": "614ca7f3f528ee8ba0508668"
+        },
+        "__v": 2,
+        "id": "614ca7f2f528ee8ba0508661"
+      },
+      {
+        "__component": "section.section-experience",
+        "_id": "614bb087a5b50b0c618421cb",
+        "title": "experience",
+        "date": "29/05/2021 - 29/08/2021",
+        "position": "front-end dev",
+        "technologies": "<p>RxJS Django PHP JavaScript DHTMLX &nbsp;Gantt</p><p><br>&nbsp;</p>",
+        "metadata": {
+          "background_color": "yellow",
+          "_id": "614bb087a5b50b0c618421cc",
+          "name": "Section five",
+          "section_id": "section-five",
+          "background": true,
+          "__v": 0,
+          "id": "614bb087a5b50b0c618421cc"
+        },
+        "__v": 1,
+        "company": "InkHall",
+        "id": "614bb087a5b50b0c618421cb"
+      },
+      {
+        "__component": "section.footer",
+        "_id": "614cdd3a1efb8cd2da47f403",
+        "footer_text": "<p>texto da footer</p>",
+        "metadata": {
+          "background_color": "black",
+          "_id": "614cdd3a1efb8cd2da47f404",
+          "name": "Footer",
+          "section_id": "footer",
+          "__v": 0,
+          "id": "614cdd3a1efb8cd2da47f404"
+        },
+        "__v": 1,
+        "id": "614cdd3a1efb8cd2da47f403"
       }
     ],
-    "createdAt": "2021-09-15T18:31:17.704Z",
-    "updatedAt": "2021-09-21T17:11:20.773Z",
+    "createdAt": "2021-09-22T19:05:46.103Z",
+    "updatedAt": "2021-09-23T20:02:07.069Z",
     "__v": 1,
-    "metadata": null,
-    "footer_text": "<p>Copyright © Ismael Rodino</p>",
-    "experience": {
-      "_id": "614397f9d5c18f16474d8f31",
-      "occupation": "Desenvolvedor Front-end",
-      "company": "InkHall",
-      "date": "29/05/2021 - 06/09/2021",
-      "technologies": [
-        {
-          "_id": "614397f9d5c18f16474d8f32",
-          "list": "Next js",
-          "__v": 0,
-          "id": "614397f9d5c18f16474d8f32"
-        },
-        {
-          "_id": "614397f9d5c18f16474d8f33",
-          "list": "Tailwind",
-          "__v": 0,
-          "id": "614397f9d5c18f16474d8f33"
-        }
-      ],
-      "__v": 1,
-      "id": "614397f9d5c18f16474d8f31"
-    },
-    "id": "61423bf53fdcc2c1f3aff07d"
+    "footer_text": "<p>texto da footer</p>",
+    "id": "614b7e8aadf715d60eb367a5"
   }
 ]

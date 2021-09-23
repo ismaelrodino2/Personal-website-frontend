@@ -1,13 +1,14 @@
+/* eslint-disable react/prop-types */
 import { useTheme } from '../../providers/ThemeContext';
 import { SectionBackground } from '../SectionBackground';
 import './styles.css';
 
-export function ProjectsSection() {
+export function ProjectsSection({ background }) {
   const darkTheme = useTheme();
 
   return (
     <div className={`  ${darkTheme ? 'dark' : ' '}`}>
-      <SectionBackground background={true}>
+      <SectionBackground background={background}>
         <div className="dark:bg-gray-600">
           <div className="flex flex-col items-center py-10 text-center main-container">
             <h1 className="pb-10">Projects</h1>

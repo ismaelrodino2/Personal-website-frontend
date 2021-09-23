@@ -1,12 +1,13 @@
+/* eslint-disable react/prop-types */
 import { SectionBackground } from '../SectionBackground';
 import { SiNextDotJs } from 'react-icons/si';
 
-export function TimeLine() {
+export function TimeLine({ background }) {
   return (
-    <SectionBackground background={true}>
+    <SectionBackground background={background}>
       <div className="main-container">
         <div className="flex justify-center">
-          <h1 className="pb-10">skills</h1>
+          <h1 className="pb-10">experience</h1>
         </div>
         <div className="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
           {/* <!-- left --> */}

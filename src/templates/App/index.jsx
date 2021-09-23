@@ -1,6 +1,11 @@
 import { useEffect, useState } from 'react';
 import { mapData } from '../../api/map-data';
+import AboutSection from '../../components/AboutSection';
 import { Footer } from '../../components/Footer';
+import { Header } from '../../components/Header';
+import { ProjectsSection } from '../../components/ProjectsSection';
+import { SkillsSection } from '../../components/SkillsSection';
+import { TimeLine } from '../../components/TimeLine';
 import { ThemeProvider } from '../../providers/ThemeContext';
 import { Base } from '../Base';
 
@@ -29,18 +34,43 @@ function Home() {
   if (data && !data.slug) {
     return <h1>Carregando</h1>;
   }
-  const { footerHtml, sections } = data;
+  const { sections, slug } = data;
   console.log(data);
-  {
-    sections.map((section, index) => {
-      const { component } = section;
-      console.log(component);
-    });
-  }
 
   return (
     <ThemeProvider>
-      <Base footer={footerHtml} />
+      {sections.map((section, index) => {
+        const { sectionID, background_color, footer_text } = section;
+        const key = `${slug}-${index}`;
+        console.log(section);
+
+        if (sectionID === 'section-one') {
+          return <Header key={key} background={background_color} />;
+        }
+
+        if (sectionID === 'section-two') {
+          return <AboutSection key={key} background={background_color} />;
+        }
+
+        if (sectionID === 'section-three') {
+          return <ProjectsSection key={key} background={background_color} />;
+        }
+        if (sectionID === 'section-four') {
+          return <SkillsSection key={key} background={background_color} />;
+        }
+        if (sectionID === 'section-five') {
+          return <TimeLine key={key} background={background_color} />;
+        }
+        if (sectionID === 'section-six') {
+          return (
+            <Footer
+              key={key}
+              background={background_color}
+              footer={footer_text}
+            />
+          );
+        }
+      })}
     </ThemeProvider>
   );
 }
