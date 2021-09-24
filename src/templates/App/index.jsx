@@ -38,12 +38,12 @@ function Home() {
   return (
     <ThemeProvider>
       {sections.map((section, index) => {
-        const { sectionID, background_color, footer_text } = section;
+        const { sectionID, background_color } = section;
         const key = `${slug}-${index}`;
         console.log(section);
 
         if (sectionID === 'section-one') {
-          return <Header key={key} background={background_color} />;
+          return <Header key={key} {...section} />;
         }
 
         if (sectionID === 'section-two') {

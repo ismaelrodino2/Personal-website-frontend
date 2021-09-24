@@ -9,11 +9,11 @@ import {
   useThemeUpdate,
 } from '../../providers/ThemeContext';
 
-export function Header({ background, title, description }) {
+export function Header({ background_color, title, description }) {
   const darkTheme = useTheme();
   return (
     <div className={darkTheme ? 'dark' : ''}>
-      <SectionBackground background={background}>
+      <SectionBackground background={background_color}>
         <div className=" dark:bg-color_header_dark">
           <div className="flex items-center justify-center h-screen text-center main-container">
             <div>

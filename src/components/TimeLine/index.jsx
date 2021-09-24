@@ -5,7 +5,6 @@ import {
 } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
 import { SectionBackground } from '../SectionBackground';
-import { SiNextDotJs } from 'react-icons/si';
 import { useTheme } from '../../providers/ThemeContext';
 
 export function TimeLine({ background_color, title, experience, svg }) {
