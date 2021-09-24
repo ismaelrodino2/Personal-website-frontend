@@ -7,7 +7,6 @@ import { ProjectsSection } from '../../components/ProjectsSection';
 import { SkillsSection } from '../../components/SkillsSection';
 import { TimeLine } from '../../components/TimeLine';
 import { ThemeProvider } from '../../providers/ThemeContext';
-import { Base } from '../Base';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -35,7 +34,6 @@ function Home() {
     return <h1>Carregando</h1>;
   }
   const { sections, slug } = data;
-  console.log(data);
 
   return (
     <ThemeProvider>
@@ -53,22 +51,22 @@ function Home() {
         }
 
         if (sectionID === 'section-three') {
-          return <ProjectsSection key={key} background={background_color} />;
+          return <ProjectsSection key={key} {...section} />;
         }
         if (sectionID === 'section-four') {
-          return <SkillsSection key={key} background={background_color} />;
-        }
-        if (sectionID === 'section-five') {
-          return <TimeLine key={key} background={background_color} />;
-        }
-        if (sectionID === 'section-six') {
           return (
-            <Footer
+            <SkillsSection
               key={key}
               background={background_color}
-              footer={footer_text}
+              {...section}
             />
           );
+        }
+        if (sectionID === 'section-five') {
+          return <TimeLine key={key} {...section} />;
+        }
+        if (sectionID === 'section-six') {
+          return <Footer key={key} {...section} />;
         }
       })}
     </ThemeProvider>

@@ -5,14 +5,14 @@
   width: 30px;
   left: 4px;
   bottom: 4px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   transition: .4s;
   border-radius: 100%;
 
 }
 
 input:checked + .slider{
-  background-color: gray;
+  background-color: rgb(53, 53, 53);
   transition: .4s;
 }
 

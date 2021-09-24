@@ -1,49 +1,58 @@
 /* eslint-disable react/prop-types */
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from 'react-vertical-timeline-component';
+import 'react-vertical-timeline-component/style.min.css';
 import { SectionBackground } from '../SectionBackground';
 import { SiNextDotJs } from 'react-icons/si';
+import { useTheme } from '../../providers/ThemeContext';
 
-export function TimeLine({ background }) {
+export function TimeLine({ background_color, title, experience, svg }) {
+  const darkTheme = useTheme();
+
   return (
-    <SectionBackground background={background}>
-      <div className="main-container">
-        <div className="flex justify-center">
-          <h1 className="pb-10">experience</h1>
-        </div>
-        <div className="flex flex-col grid-cols-9 p-2 mx-auto md:grid">
-          {/* <!-- left --> */}
-          <div className="flex flex-row-reverse md:contents">
-            <div className="col-start-1 col-end-5 p-4 my-4 ml-auto bg-blue-500 shadow-md rounded-xl">
-              <h3 className="mb-1 text-lg font-semibold">Lorem ipsum</h3>
-              <p className="leading-tight text-justify">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi,
-                quaerat?
-              </p>
+    <div className={`  ${darkTheme ? 'dark' : ' '}`}>
+      <SectionBackground background={background_color}>
+        <div className="dark:bg-color_header_dark">
+          <div className="py-5 main-container">
+            <div className="flex justify-center">
+              <h1 className="pb-10 ">{title}</h1>
             </div>
-            <div className="relative col-start-5 col-end-6 mr-10 md:mx-auto">
-              <div className="flex items-center justify-center w-6 h-full">
-                <div className="w-1 h-full bg-blue-800 pointer-events-none"></div>
-              </div>
-              <div className="absolute w-6 h-6 -mt-3 bg-blue-500 rounded-full shadow top-1/2"></div>
-            </div>
+            <VerticalTimeline>
+              {experience.map((el, index) => (
+                <VerticalTimelineElement
+                  key={`${index}`}
+                  className="vertical-timeline-element--work"
+                  contentStyle={{
+                    background: 'white',
+                    color: 'black',
+                  }}
+                  contentArrowStyle={{
+                    borderRight: '7px solid white',
+                  }}
+                  date={el.date}
+                  iconStyle={{ background: 'rgb(174, 148, 79)' }}
+                  icon={
+                    <div
+                      className="vertical-timeline-element-icon bounce-in"
+                      dangerouslySetInnerHTML={{ __html: el.svg }}
+                    />
+                  }
+                >
+                  <h3 className="inline-flex p-1 px-3 text-white rounded-2xl bg-color_dark_yellow vertical-timeline-element-title">
+                    {el.role}
+                  </h3>
+                  <h4 className=" vertical-timeline-element-subtitle">
+                    {el.company}
+                  </h4>
+                  <p dangerouslySetInnerHTML={{ __html: el.technologies }} />
+                </VerticalTimelineElement>
+              ))}
+            </VerticalTimeline>
           </div>
-          {/* <!-- right -->
-          <div className="flex md:contents">
-            <div className="relative col-start-5 col-end-6 mr-10 md:mx-auto">
-              <div className="flex items-center justify-center w-6 h-full">
-                <div className="w-1 h-full bg-blue-800 pointer-events-none"></div>
-              </div>
-              <div className="absolute w-6 h-6 -mt-3 bg-blue-500 rounded-full shadow top-1/2"></div>
-            </div>
-            <div className="col-start-6 col-end-10 p-4 my-4 mr-auto bg-blue-500 shadow-md rounded-xl">
-              <h3 className="mb-1 text-lg font-semibold">Lorem ipsum</h3>
-              <p className="leading-tight text-justify">
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae,
-                facilis.
-              </p>
-            </div>
-          </div> */}
         </div>
-      </div>
-    </SectionBackground>
+      </SectionBackground>
+    </div>
   );
 }

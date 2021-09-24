@@ -49,10 +49,7 @@ export const mapSectionExperience = (section) => {
   const {
     __component: component = '',
     title = '',
-    date,
-    position,
-    technologies,
-    company,
+    experience,
     metadata: {
       background_color,
       background = false,
@@ -64,10 +61,7 @@ export const mapSectionExperience = (section) => {
     background_color,
     component,
     title,
-    date,
-    position,
-    technologies,
-    company,
+    experience,
     background,
     sectionID,
   };
@@ -138,6 +132,7 @@ export const mapSectionFooter = (section = {}) => {
       background = false,
       section_id: sectionID = '',
     } = false,
+    icons = [],
   } = section;
 
   return {
@@ -146,5 +141,6 @@ export const mapSectionFooter = (section = {}) => {
     footer_text,
     background,
     sectionID,
+    icons,
   };
 };

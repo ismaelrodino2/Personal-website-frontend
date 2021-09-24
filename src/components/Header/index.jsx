@@ -14,11 +14,11 @@ export function Header({ background, title, description }) {
   return (
     <div className={darkTheme ? 'dark' : ''}>
       <SectionBackground background={background}>
-        <div className=" dark:bg-gray-600">
+        <div className=" dark:bg-color_header_dark">
           <div className="flex items-center justify-center h-screen text-center main-container">
             <div>
-              <div className="flex justify-center">
-                <FaLaptopCode size={130} />
+              <div className="flex justify-center text-color_button_dark">
+                <FaLaptopCode size={150} />
               </div>
               <h1 className="text-4xl">{title}</h1>
               <p className="text-3xl">{description}</p>

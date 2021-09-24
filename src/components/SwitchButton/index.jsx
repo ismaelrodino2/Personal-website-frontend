@@ -15,12 +15,12 @@ export function SwitchButton() {
           type="checkbox"
           onChange={toggleTheme}
         />
-        <span className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center bg-gray-500 rounded-full cursor-pointer slider">
+        <span className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center rounded-full cursor-pointer bg-color_gray bg-opacity-40 slider">
           <div className="flex">
-            <div className="flex pr-3 text-yellow-500">
+            <div className="flex pr-3 text-color_yellow">
               <BsSun size={26} />
             </div>
-            <div className="text-yellow-200">
+            <div className="text-color_yellow">
               <BsMoon size={26} />
             </div>
           </div>
