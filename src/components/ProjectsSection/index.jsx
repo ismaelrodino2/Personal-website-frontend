@@ -1,22 +1,22 @@
 import { useTheme } from '../../providers/ThemeContext';
 import { SectionBackground } from '../SectionBackground';
 import P from 'prop-types';
-
+import './styles.css';
 export function ProjectsSection({ background_color, image_grid, title }) {
   const darkTheme = useTheme();
   console.log(image_grid);
   return (
     <div className={`  ${darkTheme ? 'dark' : ' '}`}>
       <SectionBackground background={background_color}>
-        <div className="pb-6 dark:bg-color_header_dark">
+        <div className="pb-16 dark:bg-color_header_dark">
           <div className="flex flex-col items-center text-center main-container">
-            <h1 className="pt-5 text-lg tracking-widest text-black uppercase">
+            <h1 className="py-5 text-lg tracking-widest text-black uppercase">
               {title}
             </h1>
-            <div className="flex flex-col flex-wrap items-center justify-center w-full gap-3 md:flex-row">
+            <div className="grid-projects">
               {image_grid.map((el) => (
                 <div
-                  className="flex-row p-3 my-5 bg-white shadow-normal md:w-1/2 lg:w-1/3 dark:bg-gray-700"
+                  className="p-3 bg-white shadow-normal dark:bg-gray-700"
                   key={`${el.srcImg}${el.altText}`}
                 >
                   <img src={el.srcImg} alt={el.altText} />

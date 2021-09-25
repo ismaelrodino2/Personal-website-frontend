@@ -29,6 +29,7 @@ module.exports = {
     },
   },
   variants: {
+    animation: ['animate-spin	'],
     extend: {},
   },
   plugins: [],

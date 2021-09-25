@@ -7,6 +7,7 @@ import { ProjectsSection } from '../../components/ProjectsSection';
 import { SkillsSection } from '../../components/SkillsSection';
 import { TimeLine } from '../../components/TimeLine';
 import { ThemeProvider } from '../../providers/ThemeContext';
+import { Loading } from '../Loading';
 
 function Home() {
   const [data, setData] = useState([]);
@@ -33,7 +34,7 @@ function Home() {
   }
 
   if (data && !data.slug) {
-    return <h1>Carregando</h1>;
+    return <Loading />;
   }
   const { sections, slug, section } = data;
   console.log(sections);

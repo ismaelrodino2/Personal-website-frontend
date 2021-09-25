@@ -9,7 +9,7 @@ export function SkillsSection({ background_color, text_grid }) {
           <h1 className="py-4 text-lg tracking-widest text-white uppercase">
             skills
           </h1>
-          <div Style={'gap: 20px'} className="flex flex-row text-white">
+          <div className="flex flex-wrap justify-center gap-4 text-white">
             {text_grid.map((el) => (
               <div className="text-white rounded-lg " key={el.title}>
                 <div className="flex flex-col justify-center p-5 bg-gray-700 rounded-lg ">
