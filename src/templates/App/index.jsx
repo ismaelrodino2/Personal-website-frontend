@@ -33,21 +33,21 @@ function Home() {
   if (data && !data.slug) {
     return <h1>Carregando</h1>;
   }
-  const { sections, slug } = data;
+  const { sections, slug, section } = data;
+  console.log(sections);
 
   return (
     <ThemeProvider>
       {sections.map((section, index) => {
         const { sectionID, background_color } = section;
         const key = `${slug}-${index}`;
-        console.log(section);
 
         if (sectionID === 'section-one') {
           return <Header key={key} {...section} />;
         }
 
         if (sectionID === 'section-two') {
-          return <AboutSection key={key} background={background_color} />;
+          return <AboutSection key={key} {...section} />;
         }
 
         if (sectionID === 'section-three') {

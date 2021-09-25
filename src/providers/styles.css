@@ -1,21 +1,21 @@
 .slider::before {
   position: absolute;
-  content: "";
+  content: '';
   height: 30px;
   width: 30px;
   left: 4px;
   bottom: 4px;
   background-color: white;
-  transition: .4s;
+  transition: 0.4s;
   border-radius: 100%;
-
 }
 
-input:checked + .slider{
+
+input:checked + .slider {
   background-color: gray;
-  transition: .4s;
+  transition: 0.4s;
 }
 
-input:checked + .slider:before{
+input:checked + .slider:before {
   transform: translateX(38px);
 }

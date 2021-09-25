@@ -17,11 +17,15 @@ export function Header({ background_color, title, description }) {
         <div className=" dark:bg-color_header_dark">
           <div className="flex items-center justify-center h-screen text-center main-container">
             <div>
-              <div className="flex justify-center text-color_button_dark">
+              <div className="flex justify-center mb-4 font-light text-color_button_dark">
                 <FaLaptopCode size={150} />
               </div>
-              <h1 className="text-4xl">{title}</h1>
-              <p className="text-3xl">{description}</p>
+              <h1 className="mb-4 text-4xl font-roboto dark:text-white">
+                {title}
+              </h1>
+              <p className="mb-4 text-3xl font-header dark:text-white">
+                {description}
+              </p>
               <SwitchButton />
             </div>
           </div>

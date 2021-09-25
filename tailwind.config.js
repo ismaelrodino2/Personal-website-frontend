@@ -1,12 +1,13 @@
 module.exports = {
+  mode: 'jit',
   purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   darkMode: 'class',
   theme: {
+    boxShadow: {
+      normal: '0 4px 6px rgb(0 0 0 / 30%)',
+    },
     fontFamily: {
-      raleway: ['Raleway', 'sans-serif'],
-      gothic: ['Franklin Gothic', 'sans-serif'],
-      opensans: ['opensans-bold', 'sans-serif'],
-      lucida: ['Lucida Sans', 'Arial,sans-serif'],
+      sans: 'opensans-bold, sans-serif',
     },
     extend: {
       colors: {
@@ -20,6 +21,10 @@ module.exports = {
         color_sections_dark: '#212529',
         color_sections_gray: '#7f7f7f',
         color_cards_dark: '#6d6d6d',
+      },
+      fontFamily: {
+        header: ['Raleway'],
+        roboto: ['Roboto'],
       },
     },
   },

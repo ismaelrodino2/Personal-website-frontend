@@ -17,10 +17,10 @@ export function SwitchButton() {
         />
         <span className="absolute top-0 bottom-0 left-0 right-0 flex items-center justify-center rounded-full cursor-pointer bg-color_gray bg-opacity-40 slider">
           <div className="flex">
-            <div className="flex pr-3 text-color_yellow">
+            <div className="flex pr-3 text-yellow-400">
               <BsSun size={26} />
             </div>
-            <div className="text-color_yellow">
+            <div className="text-yellow-400">
               <BsMoon size={26} />
             </div>
           </div>
