@@ -15,7 +15,7 @@ function Home() {
     const load = async () => {
       try {
         const data = await fetch(
-          'https://strapi-portfolio-website.herokuapp.com/pages/?slug=portfolio',
+          'https://strapi-personal-portfolio.herokuapp.com/pages/?slug=portfolio',
         );
         const json = await data.json();
         const pageData = mapData(json);
