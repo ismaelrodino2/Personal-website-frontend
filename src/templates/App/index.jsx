@@ -14,7 +14,9 @@ function Home() {
   useEffect(() => {
     const load = async () => {
       try {
-        const data = await fetch('http://localhost:1337/pages/?slug=portfolio');
+        const data = await fetch(
+          'https://strapi-portfolio-website.herokuapp.com/pages/?slug=portfolio',
+        );
         const json = await data.json();
         const pageData = mapData(json);
         setData(pageData[0]);
