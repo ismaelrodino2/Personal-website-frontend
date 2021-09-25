@@ -19,8 +19,12 @@ export function ProjectsSection({ background_color, image_grid, title }) {
                   className="p-3 bg-white shadow-normal dark:bg-gray-700"
                   key={`${el.srcImg}${el.altText}`}
                 >
-                  <img src={el.srcImg} alt={el.altText} />
-                  <span className="px-2 pb-1 text-white bg-gray-500 rounded-b-lg ">
+                  <img
+                    src={el.srcImg}
+                    alt={el.altText}
+                    className="w-full h-52"
+                  />
+                  <span className="px-2 pb-1 text-white bg-gray-500 rounded-b-lg">
                     {el.date}
                   </span>
                   <h1 className="text-lg tracking-widest text-black uppercase">
