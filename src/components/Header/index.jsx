@@ -8,6 +8,7 @@ import {
   useTheme,
   useThemeUpdate,
 } from '../../providers/ThemeContext';
+import P from 'prop-types';
 
 export function Header({ background_color, title, description }) {
   const darkTheme = useTheme();
@@ -34,3 +35,8 @@ export function Header({ background_color, title, description }) {
     </div>
   );
 }
+Header.propTypes = {
+  background_color: P.string,
+  title: P.string,
+  description: P.string,
+};

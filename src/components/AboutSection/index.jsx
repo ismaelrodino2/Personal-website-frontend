@@ -1,8 +1,8 @@
-/* eslint-disable react/prop-types */
 import { SectionBackground } from '../SectionBackground';
 import { DiReact } from 'react-icons/di';
 import { SiNextDotJs } from 'react-icons/si';
 import { useTheme } from '../../providers/ThemeContext';
+import P from 'prop-types';
 
 export default function AboutSection({
   background_color,
@@ -57,3 +57,10 @@ export default function AboutSection({
     </div>
   );
 }
+AboutSection.propTypes = {
+  background_color: P.string,
+  title: P.string,
+  description: P.string,
+  image: P.object,
+  icons_about: P.array,
+};

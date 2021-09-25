@@ -1,4 +1,3 @@
-/* eslint-disable react/prop-types */
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -6,6 +5,7 @@ import {
 import 'react-vertical-timeline-component/style.min.css';
 import { SectionBackground } from '../SectionBackground';
 import { useTheme } from '../../providers/ThemeContext';
+import P from 'prop-types';
 
 export function TimeLine({ background_color, title, experience, svg }) {
   const darkTheme = useTheme();
@@ -59,3 +59,10 @@ export function TimeLine({ background_color, title, experience, svg }) {
     </div>
   );
 }
+TimeLine.propTypes = {
+  background_color: P.string,
+  text_grid: P.node.array,
+  title: P.string,
+  experience: P.array,
+  svg: P.string,
+};

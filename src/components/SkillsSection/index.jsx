@@ -1,5 +1,5 @@
-/* eslint-disable react/prop-types */
 import { SectionBackground } from '../SectionBackground';
+import P from 'prop-types';
 
 export function SkillsSection({ background_color, text_grid }) {
   return (
@@ -28,3 +28,7 @@ export function SkillsSection({ background_color, text_grid }) {
     </div>
   );
 }
+SkillsSection.propTypes = {
+  background_color: P.string,
+  text_grid: P.node.array,
+};
