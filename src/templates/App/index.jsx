@@ -29,6 +29,20 @@ function Home() {
     load();
   }, []);
 
+  useEffect(() => {
+    if (data === undefined) {
+      document.title = 'Página não encontrada';
+    }
+
+    if (data && !data.slug) {
+      document.title = 'Carregando...';
+    }
+
+    if (data && data.title) {
+      document.title = 'Ismael Rodino';
+    }
+  }, [data]);
+
   if (data === undefined) {
     return <h1>Página não encontrada</h1>;
   }
