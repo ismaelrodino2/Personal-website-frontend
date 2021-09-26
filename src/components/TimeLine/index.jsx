@@ -16,7 +16,7 @@ export function TimeLine({ background_color, title, experience, svg }) {
         <div className=" dark:bg-color_header_dark">
           <div className="py-4 main-container">
             <div className="flex justify-center">
-              <h1 className="pb-4 text-lg tracking-widest text-black uppercase">
+              <h1 className="pb-4 text-lg tracking-widest text-black uppercase dark:text-white">
                 {title}
               </h1>
             </div>
@@ -46,7 +46,7 @@ export function TimeLine({ background_color, title, experience, svg }) {
                   <h3 className="inline-flex p-1 px-3 text-white rounded-2xl bg-color_dark_yellow dark:bg-color_header_dark vertical-timeline-element-title">
                     {el.role}
                   </h3>
-                  <h4 className="pt-3 vertical-timeline-element-subtitle">
+                  <h4 className="pt-3 text-lg font-bold vertical-timeline-element-subtitle">
                     {el.company}
                   </h4>
                   <p dangerouslySetInnerHTML={{ __html: el.technologies }} />

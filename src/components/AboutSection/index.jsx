@@ -17,11 +17,11 @@ export default function AboutSection({
       <SectionBackground background={background_color}>
         <div className="pb-12 md:pb-20 dark:bg-color_sections_gray">
           <div className="main-container ">
-            <h1 className="flex justify-center pt-4 text-lg tracking-widest text-black uppercase md:pt-16 pb-14">
+            <h1 className="flex justify-center pt-4 text-lg tracking-widest text-black uppercase md:pt-16 pb-14 dark:text-white">
               {title}
             </h1>
             <div className="flex flex-col items-center md:flex-row md:justify-between">
-              <div className="w-64 p-3 border-gray-900 rounded shadow-normal dark:bg-color_cardbg-color_sections_dark">
+              <div className="w-64 p-3 border-gray-900 rounded shadow-normal dark:bg-color_cardbg-color_sections_dark dark:bg-color_cards_dark">
                 <div className="flex ">
                   <img
                     src={image.url}

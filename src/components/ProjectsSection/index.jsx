@@ -10,7 +10,7 @@ export function ProjectsSection({ background_color, image_grid, title }) {
       <SectionBackground background={background_color}>
         <div className="pb-16 dark:bg-color_header_dark">
           <div className="flex flex-col items-center text-center main-container">
-            <h1 className="py-5 text-lg tracking-widest text-black uppercase">
+            <h1 className="py-5 text-lg tracking-widest text-black uppercase dark:text-white">
               {title}
             </h1>
             <div className="grid-projects">
@@ -27,7 +27,7 @@ export function ProjectsSection({ background_color, image_grid, title }) {
                   <span className="px-2 pb-1 text-white bg-gray-500 rounded-b-lg">
                     {el.date}
                   </span>
-                  <h1 className="text-lg tracking-widest text-black uppercase">
+                  <h1 className="text-lg tracking-widest text-black uppercase dark:text-white">
                     {el.title}
                   </h1>
                 </div>
