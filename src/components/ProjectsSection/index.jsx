@@ -15,8 +15,11 @@ export function ProjectsSection({ background_color, image_grid, title }) {
             </h1>
             <div className="grid-projects">
               {image_grid.map((el) => (
-                <div
-                  className="p-3 bg-white shadow-normal dark:bg-gray-700"
+                <a
+                  href={el.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="p-3 transition-all bg-white cursor-pointer shadow-normal dark:bg-gray-700 hover:shadow-hover hover:scale-105 hover:transform "
                   key={`${el.srcImg}${el.altText}`}
                 >
                   <img
@@ -30,7 +33,7 @@ export function ProjectsSection({ background_color, image_grid, title }) {
                   <h1 className="text-lg tracking-widest text-black uppercase dark:text-white">
                     {el.title}
                   </h1>
-                </div>
+                </a>
               ))}
             </div>
           </div>

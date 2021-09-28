@@ -5,6 +5,7 @@ module.exports = {
   theme: {
     boxShadow: {
       normal: '0 4px 6px rgb(0 0 0 / 30%)',
+      hover: '0 8px 12px rgb(0 0 0 / 70%)',
     },
     fontFamily: {
       sans: 'opensans-bold, sans-serif',
