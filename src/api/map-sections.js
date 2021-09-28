@@ -143,12 +143,14 @@ export const mapImageGrid = (section) => {
         image: { url: srcImg = '', alternativeText: altText = '' } = '',
         date = '',
         title = '',
+        link = '',
       } = img;
       return {
         date,
         title,
         srcImg,
         altText,
+        link,
       };
     }),
   };
