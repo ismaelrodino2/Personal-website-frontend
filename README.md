@@ -1,4 +1,3 @@
-Frontend:
 1 - yarn install
 
 2 - If you want to run from backend:
