@@ -8,6 +8,7 @@ import { SkillsSection } from '../../components/SkillsSection';
 import { TimeLine } from '../../components/TimeLine';
 import { ThemeProvider } from '../../providers/ThemeContext';
 import { Loading } from '../Loading';
+let dados = require('../../api/dados.json');
 
 function Home() {
   const [data, setData] = useState([]);
@@ -15,10 +16,10 @@ function Home() {
   useEffect(() => {
     const load = async () => {
       try {
-        const data = await fetch(
-          'https://strapi-personal-portfolio.herokuapp.com/pages/?slug=portfolio',
-        );
-        const json = await data.json();
+        // const data = await fetch(
+        //   'https://strapi-personal-portfolio.herokuapp.com/pages/?slug=portfolio',
+        // );
+        const json = dados;
         const pageData = mapData(json);
         setData(pageData[0]);
       } catch (e) {
